@@ -33,7 +33,7 @@ HUNTER_SPEED = 11.5               # The RED guard is faster initially.
 HUNTER_TURN_SPEED = 4.5
 PLAYER_START = (-7.1, -6.8)
 HUNTER_START = (0.4, 1.5)       # Original guard's starting location.
-GUARD_COUNT = 1                   # 1 = normal, 2 = difficult, 3 = CHAOS!
+GUARD_COUNT = 3                   # 1 = normal, 2 = difficult, 3 = CHAOS!
 # New guards begin in separate parts of the arena (away from walls and boxes).
 GUARD_STARTS = [HUNTER_START, (-6.2, 3.2), (6.3, -2.3)]
 GUARD_COLORS = [(1.0, 0.16, 0.18), (1.0, 0.42, 0.12), (0.93, 0.14, 0.45)]
